@@ -1,0 +1,47 @@
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 20px 0px;
+    background-color: #fff; /* White background for the card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for the card */
+    transition: box-shadow .3s ease-in-out; /* Smooth hover effect */
+    margin: 25vh auto; /* Center the card horizontally */
+}
+
+.profile-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Elevated shadow on hover */
+}
+
+.profile-card img {
+    width: 150px; /* Fixed width for the image */
+    height: 150px; /* Fixed height for the image */
+    border-radius: 50%; /* Circular avatar */
+    object-fit: cover; /* Ensures the image maintains aspect ratio */
+    margin-bottom: 0px; /* Space below the image */
+}
+
+.profile-card strong {
+    font-size: 18px;
+    margin-bottom: 10px; /* Space between name and email */
+}
+
+.profile-card div {
+    font-size: 14px;
+    color: #555; /* Softer color for secondary text (email) */
+    text-align: center; /* Center-align all text */
+    margin-bottom:10px;
+}
+
+.profile-card .profile-email {
+    margin-bottom: 15px; /* Spacing below the email */
+}
+
+.profile-card .profile-name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
